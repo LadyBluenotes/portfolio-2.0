@@ -1,0 +1,40 @@
+.about {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 3.5rem;
+}
+
+.about h1 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+}
+
+.text > p {
+  max-width: 700px;
+  font-size: 1.2rem;
+  margin-block: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 2;
+}
+
+.iconlinks li {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+  color: white;
+  font-size: 1.25rem;
+  transition: 0.35s ease-out;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconlinks li i {
+  cursor: pointer;
+  transition: 0.2s ease-out;
+  transform: scale(1);
+}
+.iconlinks li i:hover {
+  color: hsl(53, 70%, 48%);
+  transform: scale(1.4);
+}
