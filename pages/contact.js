@@ -29,7 +29,7 @@ const contact = () => {
 
       <form method="POST"
         name="contact-form"
-        action="sarahgerrard.netlify.app/success"
+        action="/success"
         data-netlify="true">
         <input type="text" name="name" placeholder="Name" required />
         <input type="text" name="email" placeholder="Email" required />
