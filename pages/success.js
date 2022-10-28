@@ -1,3 +1,5 @@
-export default function Success() {
-    return <div>Form successfully submitted!</div>
+const success = () => {
+    return (
+    <div>Form successfully submitted!</div>
+    )
   }
