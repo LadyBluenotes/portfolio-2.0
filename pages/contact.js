@@ -27,7 +27,10 @@ const contact = () => {
     >
       <h1>Get in Touch !</h1>
 
-      <form name="contact" method="POST" action="/success" data-netlify="true">
+      <form method="POST"
+        name="contact-form"
+        action="contact/?success=true"
+        data-netlify="true">
         <input type="text" name="name" placeholder="Name" required />
         <input type="text" name="email" placeholder="Email" required />
         <textarea
@@ -37,12 +40,11 @@ const contact = () => {
           rows="10"
           placeholder="Your message here..."
         ></textarea>
-        <input
+        <button
           type="submit"
-          value="Submit"
           className={ContactStyles.sendbutton}
           formNoValidate
-        />
+        >Submit</button>
       </form>
     </motion.div>
   );
