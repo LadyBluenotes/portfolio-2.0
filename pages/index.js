@@ -55,7 +55,7 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.75 }}
             initial={{ scale: 0, opacity: 0 }}
           >
-            Utilizing my skills in both front-end and back-end development to create and implement web applications that are both functional and visually appealing.
+            Utilizing my skills in both front and back-end development to create and implement web applications that are both functional and visually appealing.
           </motion.p>
         </div>
 

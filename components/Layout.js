@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
           as="font"
           crossOrigin=""
         />
-        <title>Portfolio</title>
+        <title>Sarah Gerrard - Full Stack Developer</title>
       </Head>
 
       <div className={LayoutStyle.container}>
