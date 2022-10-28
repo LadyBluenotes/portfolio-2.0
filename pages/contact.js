@@ -28,10 +28,10 @@ const contact = () => {
       <h1>Get in Touch !</h1>
 
       <form name="contact" method="POST" action="/success" data-netlify="true">
-        <input type="text" placeholder="Name" required />
-        <input type="text" placeholder="Email" required />
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="text" name="email" placeholder="Email" required />
         <textarea
-          name=""
+          name="message"
           id=""
           cols="95"
           rows="10"
