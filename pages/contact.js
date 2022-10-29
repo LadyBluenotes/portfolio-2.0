@@ -29,9 +29,9 @@ const contact = () => {
 
       <form method="POST"
         name="contact-form"
-        action="/"
+        action="/success"
         data-netlify="true">
-          <input type="hidden" name="contact-form" value="contact" />
+          <input type="hidden" name="contact-form" value="contact-form" />
         <input type="text" name="name" placeholder="Name" required />
         <input type="text" name="email" placeholder="Email" required />
         <textarea
