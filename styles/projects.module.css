@@ -8,10 +8,10 @@
 }
 
 .cardgroup {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -63,9 +63,6 @@
 
   line-height: 2;
 }
-/* .cardgroup > h3 {
-    margin-left: 7rem;
-} */
 
 .h3 {
   text-align: center;

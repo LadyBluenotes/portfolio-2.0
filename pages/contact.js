@@ -2,7 +2,6 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-
 import ContactStyles from "../styles/contact.module.css";
 
 const contact = () => {
@@ -28,9 +27,9 @@ const contact = () => {
       <h1>Get in Touch !</h1>
 
       <form name="contact" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
         <input type="text" name="name" placeholder="Name" required />
-        <input type="text" name="email" placeholder="Email" required />
+        <input type="email" name="email" placeholder="Email" required />
         <textarea
           name="message"
           id=""
@@ -41,7 +40,6 @@ const contact = () => {
         <button
           type="submit"
           className={ContactStyles.sendbutton}
-          formNoValidate
         >Submit</button>
       </form>
     </motion.div>

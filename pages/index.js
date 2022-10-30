@@ -42,7 +42,7 @@ export default function Home() {
           >
             Sarah Gerrard
             <TypeAnimation
-              sequence={['Full-Stack Software Developer', 1000, 'Freelancer', 1000, 'Tech Aficianado', 1000]}
+              sequence={['Full-Stack Software Developer', 1000, 'Freelancer', 1000, 'Tech Aficionado', 1000]}
                             //  Replacing previous Text
               style={{ 
                 fontSize: '.4em' }}

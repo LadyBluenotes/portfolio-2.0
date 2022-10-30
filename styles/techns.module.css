@@ -2,6 +2,7 @@
   padding-top: 3.5rem;
   width: 90vw;
   min-height: 100vh;
+  padding-bottom: 3rem;
 }
 .technologies > h1 {
   margin-block: 2.5rem;
@@ -17,13 +18,13 @@
 }
 
 .techgroup {
-  margin-left: -5vw;
+  margin-left: -8vw;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: stretch;
+  justify-content: center;
   flex-grow: 1;
-  gap: 8rem 7rem;
+  gap: 4rem 6rem;
 }
 
 .techgroup > div {

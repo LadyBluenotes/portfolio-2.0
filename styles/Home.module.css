@@ -8,7 +8,7 @@
 
 .home .introtext {
   max-width: 600px;
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .home .introtext h1 {
@@ -28,4 +28,24 @@
 .photo {
   float: right;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .photo {
+    display: none
+  }
 }
